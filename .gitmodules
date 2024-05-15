@@ -1,0 +1,3 @@
+[submodule "VisualSorter/vendor/glfw"]
+	path = VisualSorter/vendor/glfw
+	url = https://github.com/HalloweenJack2606/glfw.git
