@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Core/Application.h"
 
-int main(void* args)
+int main()
 {
 	Application app;
 	app.Run();

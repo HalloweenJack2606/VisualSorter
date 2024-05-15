@@ -1,6 +1,7 @@
 #include "Graphics/Shader.h"
 #include <fstream>
 #include <sstream>
+#include <vector>
 #include <glm/ext.hpp>
 
 void Shader::Create(const std::string& filePath)

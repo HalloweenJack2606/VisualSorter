@@ -3,7 +3,6 @@
 #include <random>
 #include <algorithm>
 #include "Graphics/Renderer.h"
-#include "Core/AudioEngine.h"
 
 void Sorter::Init()
 {
@@ -60,7 +59,6 @@ void Sorter::Sort()
 		if (play)
 		{
 			play = false;
-			AudioEngine::Play(1);
 		}
 		for(int i = 0; i < m_MaxValue / 100; i++) m_Colored.push_back(m_LastIndex + i);
 		m_LastIndex += m_MaxValue / 100;
@@ -90,7 +88,6 @@ void Sorter::SelectionSort()
 	{
 		yes = false;
 	}
-	AudioEngine::Play(0);
 
 	m_LastIndex++;
 }
